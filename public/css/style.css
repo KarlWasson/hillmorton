@@ -6,9 +6,14 @@ p {
     padding: 0;
 }
 
-/* Use a font-family that closely matches the design */
-body {
-    font-family: Arial, sans-serif;
+body,
+h1,
+h2,
+p,
+li,
+a,
+button {
+    font-family: 'Peddana', serif;
 }
 
 /* Style the header and nav */
@@ -18,21 +23,10 @@ header {
     padding: 20px 0;
 }
 
-nav ul {
-    list-style: none;
-    text-align: center;
-}
-
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav a {
+.primary-navigation .current-menu-item>a:first-child,
+.primary-navigation .current_page_item>a:first-child {
     text-decoration: none;
-    color: #000;
-    /* Replace with actual color code */
-    font-weight: bold;
+    text-decoration-style: none;
 }
 
 /* Style the main content area */
